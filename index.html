@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"> 
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="todo-app">
+        <div class="container">
+            <div class="row">
+                <header class="text-center"><h1>To-Do App</h1></header>
+            </div>
+            <div class="row">
+                <div class="input-section d-flex fex-row justify-content-center">
+                    <div class="todo-input">
+                        <input type="text" class="form-control" placeholder="Write a todo">
+                    </div>
+                    <div class="save-todo btn btn-primary">
+                        Save
+                    </div>
+                    <div class="get-todos btn btn-warning">
+                        Get Pending To-Do
+                    </div>
+                </div>
+            </div>
+            
+            <div class="todo-data">
+                <div class="row">
+                    <div class="list-todo-heading d-flex flex-row justify-content-between">
+                        <div class="todo-no">no.</div>
+                        <div class="todo-detail">Todo Item</div>
+                        <div class="todo-status">Status</div>
+                        <div class="todo-action">Actions</div>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="todo-item d-flex flex-row justify-content-between align-items-center">
+                    <div class="todo-no">1.</div>
+                        <div class="todo-detail">Complete the actions items on todos</div>
+                        <div class="todo-status">In Progress</div>
+                        <div class="todo-action">
+                            <button class="btn btn-danger">Delete</button>
+                            <button class="btn btn-success">Finished</button>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
