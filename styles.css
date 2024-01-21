@@ -28,3 +28,7 @@ html {
 .todo-action {
     flex-basis: 15%;
 }
+.todo-item {
+    font-size: 1.3rem;
+    
+}
